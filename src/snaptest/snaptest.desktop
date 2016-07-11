@@ -1,0 +1,8 @@
+[Desktop Entry]
+_Name=snaptest
+Exec=snaptest
+Icon=snaptest/snaptest.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+

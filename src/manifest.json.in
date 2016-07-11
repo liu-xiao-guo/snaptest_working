@@ -1,0 +1,17 @@
+{
+    "name": "snaptest.liu-xiao-guo",
+    "description": "description of snaptest",
+    "architecture": "@CLICK_ARCH@",
+    "title": "snaptest",
+    "hooks": {
+        "snaptest": {
+            "apparmor": "snaptest/snaptest.apparmor",
+            "desktop":  "snaptest/snaptest.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "XiaoGuo, Liu <xiaoguo.liu@canonical.com>",
+    "framework" : "ubuntu-sdk-15.04"
+}
+
+
