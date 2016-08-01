@@ -38,6 +38,8 @@ parts:
       - ubuntu-sdk-libs
       - qtubuntu-desktop
       - qml-module-qtsysteminfo
+    stage:
+      - -usr/share/pkgconfig/xkeyboard-config.pc       
     snap:
       - -usr/share/doc
       - -usr/include
